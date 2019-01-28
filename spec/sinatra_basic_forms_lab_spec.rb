@@ -35,7 +35,7 @@ describe App do
 
       expect(page).to have_field(:name)
       expect(page).to have_field(:breed)
-      expect(page).to have_field(:age)
+      expect(page).to have_field(:months_old)
     end
   end
 
